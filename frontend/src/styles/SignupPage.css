@@ -1,0 +1,58 @@
+/* Background for the whole page */
+.signup-page {
+  display: flex;
+  justify-content: center;  /* Centers horizontally */
+  align-items: center;      /* Centers vertically */
+  height: 100vh;
+  background: linear-gradient(to right, #f5f7fa, #c3cfe2);
+}
+
+/* Signup form box */
+.signup-box {
+  width: 350px;
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+.signup-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Labels */
+.signup-box label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #555;
+}
+
+/* Inputs */
+.signup-box input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Button */
+.signup-box button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  background: #3498db;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.signup-box button:hover {
+  background: #2980b9;
+}

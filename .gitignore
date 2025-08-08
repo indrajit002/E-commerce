@@ -1,0 +1,20 @@
+# Ignore node_modules everywhere
+node_modules/
+
+# Ignore env files everywhere
+.env
+
+# Ignore frontend build (optional)
+frontend/build/
+
+# Logs
+logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files (optional)
+.vscode/
+.idea/
